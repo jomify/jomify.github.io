@@ -11,7 +11,7 @@ postnominals: []
 status:
   icon: "☕️"
 role: "Computer Science Student"
-bio: "I am broadly interested in generative models for interactive visual media, especially games and animation. I aim to develop and adapt LLM-based architectures for controllable content creation and real-time interaction in game environments."
+bio: "I am broadly interested in generative models for interactive visual media, especially games and animation. I aim to develop and adapt GAN-, VAE-, and diffusion-based architectures for controllable content creation and real-time interaction in complex 3D environments."
 affiliations:
   - name: "Beijing Jiaotong University & Lancaster University"
     url: ""
@@ -28,7 +28,7 @@ interests:
   - "Generative Models"
   - "Interactive Visual Media"
   - "Games & Animation"
-  - "LLM-based Architectures"
+  - "Diffusion Models"
 education:
   - degree: "BSc Computer Science (Joint Programme)"
     institution: "Beijing Jiaotong University & Lancaster University"
@@ -39,17 +39,25 @@ experience:
     org: "Concept-Based Dictionary Learning for Inference-Time Safety in VLA Models"
     start: "2025-01-01"
     summary: |-
-      * Contributed to experiments for a paper currently under submission to CVPR on concept-dictionary safety defenses in VLA models.
-      * Maintain and extend PyTorch experimental pipeline for concept-dictionary learning and activation-space defenses.
-      * Run large-scale experiments and ablations; ensure cross-environment reproducibility via strict logging and configuration.
-      * Curate multilingual datasets and design evaluation settings for safety under adversarial or out-of-distribution prompts.
+      * Core Experimental Contributor (CVPR under review).
+      * Architected and implemented a modular framework for concept-dictionary–based inference-time safety defenses in Vision–Language–Action (VLA) models.
+      * Implemented reusable components for concept extraction, intervention hooks at inference time, and end-to-end evaluation scripts.
+      * Curated and constructed evaluation datasets to stress-test safety and generalization, including adversarial and OOD scenarios.
+      * Led systematic ablation studies to isolate the impact of dictionary size, concept selection strategies, and intervention strength.
+      * Executed large-scale experiments across simulated and real-world-like settings, ensuring reproducibility via configuration management.
   - role: "Developer & Competitor"
     org: "Independent Study: Medical Image Analysis"
     start: "2025-01-01"
     summary: |-
       Kaggle RSNA Aneurysm Detection.
-      * Achieved top 15% among 1000+ teams on intracranial aneurysm detection task.
-      * Implemented custom 3D/DICOM data loaders and preprocessing pipeline in PyTorch to handle class imbalance and noise.
+      * Developed CNN-based models for 3D medical imaging (DICOM) focused on intracranial aneurysm detection.
+      * Implemented preprocessing and training strategies (augmentation, ensembling, post-processing) to reach a top-15% leaderboard ranking among 1000+ teams.
+  - role: "Team Member"
+    org: "ICPC-Style Programming Contests"
+    start: "2024-01-01"
+    summary: |-
+      * Regularly participate in ICPC-style contests, solving algorithmic problems in C++ under tight time constraints.
+      * Practice spans graph algorithms, dynamic programming, greedy methods, data structures, and basic computational geometry.
 skills:
   - name: "Technical Skills"
     items:

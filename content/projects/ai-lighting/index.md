@@ -10,5 +10,6 @@ tags:
 featured: true
 ---
 
-Prototype system for automatic scene lighting control using learned policies in a real-time engine.
-Implemented using PyTorch and Unreal Engine (C++ / Blueprints).
+Reframed real-time lighting control as a learning-and-evaluation problem: define objectives (visual plausibility vs. cost), baselines, and measurable criteria.
+Built a reproducible pipeline connecting model inference to an interactive 3D runtime for controlled experiments and rapid iteration.
+Ran structured comparisons across settings (scenes/conditions) to understand generalization and failure cases, guiding future research directions.

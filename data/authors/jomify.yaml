@@ -1,5 +1,5 @@
 schema: "hugoblox/author/v1"
-slug: "me"
+slug: "jomify"
 is_owner: true
 name:
   display: "Baiyan Li"
@@ -25,10 +25,8 @@ links:
     url: "https://jomify.asia"
     label: "Website"
 interests:
-  - "Generative Models"
-  - "Interactive Visual Media"
-  - "Games & Animation"
-  - "Diffusion Models"
+  - "Generative Modeling for 2D Visual Content"
+  - "Generative Modeling for 3D Content Creation"
 education:
   - degree: "BSc Computer Science (Joint Programme)"
     institution: "Beijing Jiaotong University & Lancaster University"
@@ -45,13 +43,6 @@ experience:
       * Curated and constructed evaluation datasets to stress-test safety and generalization, including adversarial and OOD scenarios.
       * Led systematic ablation studies to isolate the impact of dictionary size, concept selection strategies, and intervention strength.
       * Executed large-scale experiments across simulated and real-world-like settings, ensuring reproducibility via configuration management.
-  - role: "Developer & Competitor"
-    org: "Independent Study: Medical Image Analysis"
-    start: "2025-01-01"
-    summary: |-
-      Kaggle RSNA Aneurysm Detection.
-      * Developed CNN-based models for 3D medical imaging (DICOM) focused on intracranial aneurysm detection.
-      * Implemented preprocessing and training strategies (augmentation, ensembling, post-processing) to reach a top-15% leaderboard ranking among 1000+ teams.
   - role: "Team Member"
     org: "ICPC-Style Programming Contests"
     start: "2024-01-01"
@@ -80,10 +71,5 @@ awards:
   - title: "Bronze Medal"
     awarder: "Weihai Municipal University Students Programming Contest"
     date: ""
-    summary: ""
-    icon: "hero/trophy"
-  - title: "Top 15%"
-    awarder: "Kaggle RSNA Intracranial Aneurysm Detection"
-    date: "2025-01-01"
     summary: ""
     icon: "hero/trophy"

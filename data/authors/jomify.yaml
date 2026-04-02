@@ -32,6 +32,23 @@ education:
     institution: "Beijing Jiaotong University & Lancaster University"
     start: "2024-09-01"
     summary: "Year 2. GPA: 3.71 / 4.0"
+experience:
+  - role: "Core Experimental Contributor"
+    org: "Concept-Based Dictionary Learning for Inference-Time Safety in VLA Models"
+    start: "2025-01-01"
+    summary: |-
+      * Core Experimental Contributor (CVPR under review).
+      * Architected and implemented a modular framework for concept-dictionary–based inference-time safety defenses in Vision–Language–Action (VLA) models.
+      * Implemented reusable components for concept extraction, intervention hooks at inference time, and end-to-end evaluation scripts.
+      * Curated and constructed evaluation datasets to stress-test safety and generalization, including adversarial and OOD scenarios.
+      * Led systematic ablation studies to isolate the impact of dictionary size, concept selection strategies, and intervention strength.
+      * Executed large-scale experiments across simulated and real-world-like settings, ensuring reproducibility via configuration management.
+  - role: "Team Member"
+    org: "ICPC-Style Programming Contests"
+    start: "2024-01-01"
+    summary: |-
+      * Regularly participate in ICPC-style contests, solving algorithmic problems in C++ under tight time constraints.
+      * Practice spans graph algorithms, dynamic programming, greedy methods, data structures, and basic computational geometry.
 skills:
   - name: "Technical Skills"
     items:
